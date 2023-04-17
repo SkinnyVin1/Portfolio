@@ -17,10 +17,7 @@ function App() {
       <div className="App">
         <NavigationBar></NavigationBar>
         <Routes>
-          <Route
-            path="/First-React-Deployment-Serrano"
-            element={<Home />}
-          ></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
           <Route path="/Skills" element={<Skills />}></Route>
           <Route path="/Work" element={<Work />}></Route>
